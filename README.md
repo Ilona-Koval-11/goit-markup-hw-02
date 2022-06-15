@@ -1,2 +1,2 @@
-# goit-markup-hw-02
-homework 2 CSS
+# homework-one
+homework 06062022
