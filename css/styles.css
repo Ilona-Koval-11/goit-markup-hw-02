@@ -1,10 +1,49 @@
 :root{
-    --primary-text-color:rgba(33, 33, 33, 1);
+    --primary-text-color:#212121;
     --blue-text-color: rgba(33, 150, 243, 1);
     --white-text-color:rgba(255, 255, 255, 1);
     --dark-background-color:rgba(47, 48, 58, 1);
     --white-background-color:#E5E5E5;
-    --grey-background-color:rgba(245, 244, 250, 1)
+    --grey-background-color:rgba(245, 244, 250, 1);
+    --blue-background0color:rgba(33, 150, 243, 1);
+    --font-family-primary:'Roboto', sans-serif;
+    --font-family-logo: 'Raleway', sans-serif;
 }
 
+body {
+    font-family: var(--font-family-primary);
+    background-color: var(--white-background-color);
+}
+
+logo {
+}
+.button{
+background-color: var(--white-background-color);
+color: var(--primary-text-color);
+}
+
+.button:hover, focus {
+    color:var(--white-text-color);
+    background-color: var(--blue-background0color); 
+    
+}
+
+.menu-link{
+    font-family: var(--font-family-primary);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    
+}
+
+.menu .menu-link:focus {
+color: var(--grey-background-color)
+}
+
+.list {
+    list-style: none;
 
