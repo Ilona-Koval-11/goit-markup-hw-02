@@ -1,49 +1,100 @@
-:root{
-    --primary-text-color:#212121;
-    --blue-text-color: rgba(33, 150, 243, 1);
-    --white-text-color:rgba(255, 255, 255, 1);
-    --dark-background-color:rgba(47, 48, 58, 1);
-    --white-background-color:#E5E5E5;
-    --grey-background-color:rgba(245, 244, 250, 1);
-    --blue-background0color:rgba(33, 150, 243, 1);
-    --font-family-primary:'Roboto', sans-serif;
-    --font-family-logo: 'Raleway', sans-serif;
+.logo{
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
 }
 
-body {
-    font-family: var(--font-family-primary);
-    background-color: var(--white-background-color);
+.logo-blue {
+color: #2196F3 ;
 }
 
-logo {
-}
-.button{
-background-color: var(--white-background-color);
-color: var(--primary-text-color);
+.logo-black{
+color: #212121 ;
 }
 
-.button:hover, focus {
-    color:var(--white-text-color);
-    background-color: var(--blue-background0color); 
-    
+.logo-white{
+    color: #FFFFFF;
+}
+
+.logo:hover {
+    color:   #2196F3 ;
+}
+
+.body{
+    font-family: 'Roboto';
+    font-style: normal;
+    color: #212121;
+    background-color:#E5E5E5;
+}
+
+.menu {
+    list-style: none;
 }
 
 .menu-link{
-    font-family: var(--font-family-primary);
+    list-style: none;
+    color: #212121 ;
+    text-decoration: none;
+    font-family: inherit;
+}
+
+.menu-link:hover{
+    color:   #2196F3 ;
+}
+
+.button{
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--primary-text-color);
+    color: #212121;
+}
+
+.button:hover {
+    color:   #2196F3 ;
+}
+
+.item{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color:#757575;
+}
+
+.item-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    color:#212121;
+}
+
+.footer{
+    background-color:#2F303A ;
+}
+
+.address{
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
     
 }
 
-.menu .menu-link:focus {
-color: var(--grey-background-color)
+.address-link{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
 }
-
-.list {
-    list-style: none;
-
